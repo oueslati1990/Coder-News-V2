@@ -1,0 +1,12 @@
+C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Contracts\bin\Debug\net7.0\CoderNews.Contracts.deps.json
+C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Contracts\bin\Debug\net7.0\CoderNews.Contracts.dll
+C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Contracts\bin\Debug\net7.0\CoderNews.Contracts.pdb
+C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Contracts\obj\Debug\net7.0\CoderNews.Contracts.csproj.AssemblyReference.cache
+C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Contracts\obj\Debug\net7.0\CoderNews.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Contracts\obj\Debug\net7.0\CoderNews.Contracts.AssemblyInfoInputs.cache
+C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Contracts\obj\Debug\net7.0\CoderNews.Contracts.AssemblyInfo.cs
+C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Contracts\obj\Debug\net7.0\CoderNews.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Contracts\obj\Debug\net7.0\CoderNews.Contracts.dll
+C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Contracts\obj\Debug\net7.0\refint\CoderNews.Contracts.dll
+C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Contracts\obj\Debug\net7.0\CoderNews.Contracts.pdb
+C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Contracts\obj\Debug\net7.0\ref\CoderNews.Contracts.dll

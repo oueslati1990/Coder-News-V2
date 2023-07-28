@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NXMEwI/nUcD0JfZh2uNKN4BYRqc3UhZFGmkrFMfLCwIYrtHrbJ7uQvjtCGi32Q1SgHYanuC+K5UrdAPWOYl1bQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Infrastructure\\CoderNews.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mohamed. O\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

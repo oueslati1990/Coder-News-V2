@@ -29,14 +29,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj": {
-                "projectPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj"
+              "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj": {
+                "projectPath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj"
               },
               "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Contracts\\CoderNews.Contracts.csproj": {
                 "projectPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Contracts\\CoderNews.Contracts.csproj"
               },
-              "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Infrastructure\\CoderNews.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Infrastructure\\CoderNews.Infrastructure.csproj"
+              "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Infrastructure\\CoderNews.Infrastructure.csproj": {
+                "projectPath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Infrastructure\\CoderNews.Infrastructure.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj": {
+    "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj",
+        "projectUniqueName": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj",
         "projectName": "CoderNews.Application",
-        "projectPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj",
+        "projectPath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj",
         "packagesPath": "C:\\Users\\Mohamed. O\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\obj\\",
+        "outputPath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mohamed. O\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -97,8 +97,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj": {
-                "projectPath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj"
+              "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj": {
+                "projectPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj"
               }
             }
           }
@@ -193,14 +193,14 @@
         }
       }
     },
-    "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj": {
+    "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj",
         "projectName": "CoderNews.Domain",
-        "projectPath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj",
+        "projectPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj",
         "packagesPath": "C:\\Users\\Mohamed. O\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mohamed. O\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -248,14 +248,14 @@
         }
       }
     },
-    "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Infrastructure\\CoderNews.Infrastructure.csproj": {
+    "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Infrastructure\\CoderNews.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Infrastructure\\CoderNews.Infrastructure.csproj",
+        "projectUniqueName": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Infrastructure\\CoderNews.Infrastructure.csproj",
         "projectName": "CoderNews.Infrastructure",
-        "projectPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Infrastructure\\CoderNews.Infrastructure.csproj",
+        "projectPath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Infrastructure\\CoderNews.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Mohamed. O\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Infrastructure\\obj\\",
+        "outputPath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mohamed. O\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -272,8 +272,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj": {
-                "projectPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj"
+              "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj": {
+                "projectPath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj"
               }
             }
           }
@@ -287,6 +287,24 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.32.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.32.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

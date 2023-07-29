@@ -1,4 +1,4 @@
-using CoderNews.Application.Authentication;
+using CoderNews.Application.Services.Authentication;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace CoderNews.Application;

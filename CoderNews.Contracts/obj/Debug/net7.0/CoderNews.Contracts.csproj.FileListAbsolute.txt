@@ -1,4 +1,4 @@
-C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Contracts\bin\Debug\net7.0\CoderNews.Contracts.deps.json
+c:\Users\Mohamed. O\Coder-News-V2\CoderNews.Contracts\bin\Debug\net7.0\CoderNews.Contracts.deps.json
 C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Contracts\bin\Debug\net7.0\CoderNews.Contracts.dll
 C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Contracts\bin\Debug\net7.0\CoderNews.Contracts.pdb
 C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Contracts\obj\Debug\net7.0\CoderNews.Contracts.csproj.AssemblyReference.cache
@@ -9,4 +9,4 @@ C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Contracts\obj\Debug\net7.0\CoderNews
 C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Contracts\obj\Debug\net7.0\CoderNews.Contracts.dll
 C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Contracts\obj\Debug\net7.0\refint\CoderNews.Contracts.dll
 C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Contracts\obj\Debug\net7.0\CoderNews.Contracts.pdb
-C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Contracts\obj\Debug\net7.0\ref\CoderNews.Contracts.dll
+c:\Users\Mohamed. O\Coder-News-V2\CoderNews.Contracts\obj\Debug\net7.0\ref\CoderNews.Contracts.dll

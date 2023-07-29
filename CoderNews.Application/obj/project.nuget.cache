@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HIAr7goAI/ZduZCjlr3Zdj7gEGQrKp4tTzZ7cRGPgrkL7O7/8H1QX27JpRjc+mkaB/gRnKCmZB4Vy2C1oJWysA==",
+  "dgSpecHash": "R7h2ebi1/HnxoCyyBLkHiRNZcONYZxSfcrlT+46+I5BN+yw6sk7/LF8//kCIGQ+/jGuDuyiGEhqyw7xUylzOdg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj",
+  "projectFilePath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mohamed. O\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
   ],

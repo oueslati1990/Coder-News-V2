@@ -1,4 +1,4 @@
-namespace CoderNews.Application.Authentication;
+namespace CoderNews.Application.Services.Authentication;
 
 public record AuthenticationResult(
     Guid Id,

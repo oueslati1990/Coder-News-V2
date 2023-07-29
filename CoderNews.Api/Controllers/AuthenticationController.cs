@@ -1,4 +1,4 @@
-using CoderNews.Application.Authentication;
+using CoderNews.Application.Services.Authentication;
 using CoderNews.Contracts.Authentication;
 using Microsoft.AspNetCore.Mvc;
 

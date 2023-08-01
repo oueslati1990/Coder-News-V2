@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T20DdfWH5SVK6dytLDqdjf8s3yJPq46TgJDZQxZCyKZYnnQhSAHwRH4RSe7oDpFrjQ2xSmlzdP44a6jJZ4Fmyw==",
+  "dgSpecHash": "hoUpJgqqJoWs9ZMFqlka/2GPHyr+1Ps6KTFWKIR2bmhTsr2utMUXaUUjdFGEtnrcs+Bjj90ffiXTTa/CmU7tWg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Infrastructure\\CoderNews.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Infrastructure\\CoderNews.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mohamed. O\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Mohamed. O\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",

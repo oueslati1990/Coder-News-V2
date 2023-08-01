@@ -1,31 +1,64 @@
 using CoderNews.Application.Common.Interfaces.Authentication;
+using CoderNews.Application.Common.Interfaces.Persistence;
+using CoderNews.Domain.Entities;
 
 namespace CoderNews.Application.Services.Authentication;
 
 public class AuthenticationService : IAuthenticationService
 {
     private readonly IJwtTokenGenerator _jwtTokenGenerator;
+    private readonly IUserRepository _userRepository;
 
-    public AuthenticationService(IJwtTokenGenerator jwtTokenGenerator)
+    public AuthenticationService(IJwtTokenGenerator jwtTokenGenerator, IUserRepository userRepository)
     {
         _jwtTokenGenerator = jwtTokenGenerator;
+        _userRepository = userRepository;
     }
 
-    public AuthenticationResult Login(string Email, string Password)
+    public AuthenticationResult Login(string email, string password)
     {
-        return new AuthenticationResult(Guid.NewGuid(),"firstName","lastName",Email,"token");
+        var user = _userRepository.GetUserByEmail(email);
+        // 1. Validate user exists
+        if (user == null)
+        {
+            throw new Exception("User with given email doesn't exist");
+        }
+
+        // 2. Validate password is correct
+        if (user.Password != password)
+        {
+            throw new Exception("Password incorect");
+        }
+
+        // 3. Generate token
+        var token = _jwtTokenGenerator.GenerateToken(user);
+
+        return new AuthenticationResult(user,
+                                        token);
     }
 
     public AuthenticationResult Register(string firstName, string lastName, string email, string password)
     {
-        // Check if user already exists
+        // 1. Check if user already exists
+        if (_userRepository.GetUserByEmail(email) is not null)
+        {
+            throw new Exception("User already exists");
+        }
 
-        // Create user
+        // 2. Create user and persist it to the database
+        var user = new User
+        {
+            FirstName = firstName,
+            LastName = lastName,
+            Email = email,
+            Password = password
+        };
+        _userRepository.Add(user);
 
-        // Create token for the user
-        var userId = Guid.NewGuid();
-        var token  = _jwtTokenGenerator.GenerateToken(userId, firstName, lastName);
+        // 3. Create token for the user
 
-        return new AuthenticationResult(userId,firstName,lastName,email,token);
+        var token = _jwtTokenGenerator.GenerateToken(user);
+
+        return new AuthenticationResult(user, token);
     }
 }

@@ -1062,8 +1062,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj": {
-              "projectPath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj"
+            "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj": {
+              "projectPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj"
             }
           }
         }

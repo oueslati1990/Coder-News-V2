@@ -1,9 +1,8 @@
+using CoderNews.Domain.Entities;
+
 namespace CoderNews.Application.Services.Authentication;
 
 public record AuthenticationResult(
-    Guid Id,
-    string FirstName,
-    string LastName,
-    string Email,
+    User User,
     string Token
 );

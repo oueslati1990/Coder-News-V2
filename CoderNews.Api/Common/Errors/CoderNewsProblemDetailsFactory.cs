@@ -1,10 +1,12 @@
 using System.Diagnostics;
+using CoderNews.Api.Common.Http;
+using ErrorOr;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.Extensions.Options;
 
-namespace CoderNews.Api.Errors;
+namespace CoderNews.Api.Common.Errors;
 
 public class CoderNewsProblemDetailsFactory : ProblemDetailsFactory
 {
@@ -91,7 +93,11 @@ public class CoderNewsProblemDetailsFactory : ProblemDetailsFactory
             problemDetails.Extensions["traceId"] = traceId;
         }
 
-        problemDetails.Extensions.Add("CustomProperty","CustomValue");
+        var errors = httpContext?.Items[HttpContextItemKeys.Errors] as List<Error>;
+        if(errors != null)
+        {
+            problemDetails.Extensions.Add("errorCodes",errors.Select(e => e.Code));
+        }
 
         _configure?.Invoke(new() { HttpContext = httpContext!, ProblemDetails = problemDetails });
     }

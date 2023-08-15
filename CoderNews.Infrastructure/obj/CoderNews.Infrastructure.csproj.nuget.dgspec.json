@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Infrastructure\\CoderNews.Infrastructure.csproj": {}
+    "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Infrastructure\\CoderNews.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj": {
+    "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj",
+        "projectUniqueName": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj",
         "projectName": "CoderNews.Application",
-        "projectPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj",
+        "projectPath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj",
         "packagesPath": "C:\\Users\\Mohamed. O\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\obj\\",
+        "outputPath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mohamed. O\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj": {
-                "projectPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj"
+              "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj": {
+                "projectPath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj"
               }
             }
           }
@@ -65,18 +65,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj": {
+    "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj",
+        "projectUniqueName": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj",
         "projectName": "CoderNews.Domain",
-        "projectPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj",
+        "projectPath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj",
         "packagesPath": "C:\\Users\\Mohamed. O\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\obj\\",
+        "outputPath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mohamed. O\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -104,6 +104,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "ErrorOr": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -120,18 +126,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Infrastructure\\CoderNews.Infrastructure.csproj": {
+    "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Infrastructure\\CoderNews.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Infrastructure\\CoderNews.Infrastructure.csproj",
+        "projectUniqueName": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Infrastructure\\CoderNews.Infrastructure.csproj",
         "projectName": "CoderNews.Infrastructure",
-        "projectPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Infrastructure\\CoderNews.Infrastructure.csproj",
+        "projectPath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Infrastructure\\CoderNews.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Mohamed. O\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Infrastructure\\obj\\",
+        "outputPath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mohamed. O\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -148,8 +154,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj": {
-                "projectPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj"
+              "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj": {
+                "projectPath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj"
               }
             }
           }
@@ -197,7 +203,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8mm4Py08AofcPg1mBANUnf47H+0drvhXyqeKiaYcA+Dn4ircWrnH/X+QmTMWLkEm8PjX3HR0A2CcoM6QV/eu1w==",
+  "dgSpecHash": "+XFxDAtugDubNfxg5U1MI2wzKgwKoFq7euzQhTMN3+9XIhW1tygdDjDHiDEawlMS8gMPW7eRFIgkvbmuAQqBBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mohamed. O\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512"
+  ],
   "logs": []
 }

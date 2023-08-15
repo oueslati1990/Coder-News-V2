@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "QtNNh3YjpEsqvjvOjzOi60t6vfB4GGdz8vAJM70uYrogWSjuwgyhAHukSnAtaCalMAAKVrxOUp4K19rHrBgLxQ==",
+  "dgSpecHash": "f0wNyPIgjQrcKFKlxcGRfSnD6JZWbzXEnm2lszQCACtinxUSXyiU5j7xDFH9MYvCENmoyNJH9fqv0UzUxnXcpQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj",
+  "projectFilePath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Mohamed. O\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512",
     "C:\\Users\\Mohamed. O\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
   ],
   "logs": []

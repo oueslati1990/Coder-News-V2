@@ -1,5 +1,6 @@
 appsettings.json
 .vscode
+.vs
 *.swp
 *.*~
 project.lock.json

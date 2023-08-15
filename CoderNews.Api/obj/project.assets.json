@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "ErrorOr/1.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ErrorOr.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/ErrorOr.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.CSharp/4.5.0": {
         "type": "package",
         "compile": {
@@ -340,6 +353,9 @@
       "CoderNews.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "ErrorOr": "1.2.1"
+        },
         "compile": {
           "bin/placeholder/CoderNews.Domain.dll": {}
         },
@@ -367,6 +383,22 @@
     }
   },
   "libraries": {
+    "ErrorOr/1.2.1": {
+      "sha512": "5xcbQErEPQKq2z/sLwSaFPX3T2G7x4ISX0us0X7jSxXSQT/wlfOOhw4knPUN/GWOf2strhuzdvRA36JViwvu+A==",
+      "type": "package",
+      "path": "erroror/1.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "erroror.1.2.1.nupkg.sha512",
+        "erroror.nuspec",
+        "icon-square.png",
+        "lib/net6.0/ErrorOr.dll",
+        "lib/net6.0/ErrorOr.xml",
+        "lib/netstandard2.0/ErrorOr.dll",
+        "lib/netstandard2.0/ErrorOr.xml"
+      ]
+    },
     "Microsoft.CSharp/4.5.0": {
       "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
       "type": "package",
@@ -1076,11 +1108,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Api\\CoderNews.Api.csproj",
+      "projectUniqueName": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Api\\CoderNews.Api.csproj",
       "projectName": "CoderNews.Api",
-      "projectPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Api\\CoderNews.Api.csproj",
+      "projectPath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Api\\CoderNews.Api.csproj",
       "packagesPath": "C:\\Users\\Mohamed. O\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Api\\obj\\",
+      "outputPath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mohamed. O\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1091,21 +1123,21 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.307\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj": {
-              "projectPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj"
+            "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj": {
+              "projectPath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj"
             },
-            "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Contracts\\CoderNews.Contracts.csproj": {
-              "projectPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Contracts\\CoderNews.Contracts.csproj"
+            "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Contracts\\CoderNews.Contracts.csproj": {
+              "projectPath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Contracts\\CoderNews.Contracts.csproj"
             },
-            "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Infrastructure\\CoderNews.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Infrastructure\\CoderNews.Infrastructure.csproj"
+            "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Infrastructure\\CoderNews.Infrastructure.csproj": {
+              "projectPath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Infrastructure\\CoderNews.Infrastructure.csproj"
             }
           }
         }
@@ -1138,7 +1170,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
       }
     }
   }

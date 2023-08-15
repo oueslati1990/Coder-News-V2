@@ -1,4 +1,4 @@
-using CoderNews.Api.Errors;
+using CoderNews.Api.Common.Errors;
 using CoderNews.Application;
 using CoderNews.Infrastructure;
 using Microsoft.AspNetCore.Mvc.Infrastructure;

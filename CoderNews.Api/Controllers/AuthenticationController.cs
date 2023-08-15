@@ -1,12 +1,12 @@
 using CoderNews.Application.Services.Authentication;
 using CoderNews.Contracts.Authentication;
+using ErrorOr;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CoderNews.Api.Controllers;
 
-[ApiController]
 [Route("auth")]
-public class AuthenticationController : ControllerBase
+public class AuthenticationController : ApiController
 {
     private readonly IAuthenticationService _authenticationService;
 
@@ -23,25 +23,37 @@ public class AuthenticationController : ControllerBase
                                                  request.Email,
                                                  request.Password);
 
-        var response = new AuthenticationResponse(authResult.User.Id,
-                                                  authResult.User.FirstName,
-                                                  authResult.User.LastName,
-                                                  authResult.User.Email,
-                                                  authResult.Token);
-        return Ok(response);
+        return authResult.Match(
+            authResult => Ok(MapAuthResult(authResult)),
+            errors => Problem(errors)
+        );
     }
 
+    
     [HttpPost("login")]
     public IActionResult Login(LoginRequest request)
     {
         var authResult = _authenticationService.Login(request.Email, request.Password);
 
-        var response = new AuthenticationResponse(authResult.User.Id,
-                                                 authResult.User.FirstName,
-                                                 authResult.User.LastName,
-                                                 authResult.User.Email,
-                                                 authResult.Token);
+        if(authResult.IsError && authResult.FirstError.Type == ErrorType.Validation)
+        {
+            return Problem(statusCode: StatusCodes.Status401Unauthorized,
+                           title: authResult.FirstError.Description);
+        }
+        
+        return authResult.Match(
+            authResult => Ok(MapAuthResult(authResult)),
+            errors => Problem(errors)
+        );
+                        
+    }
 
-        return Ok(response);
+    private AuthenticationResponse MapAuthResult(AuthenticationResult authResult)
+    {
+        return new AuthenticationResponse(authResult.User.Id,
+                                                  authResult.User.FirstName,
+                                                  authResult.User.LastName,
+                                                  authResult.User.Email,
+                                                  authResult.Token);
     }
 }

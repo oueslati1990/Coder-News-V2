@@ -1,6 +1,8 @@
 using CoderNews.Application.Common.Interfaces.Authentication;
 using CoderNews.Application.Common.Interfaces.Persistence;
 using CoderNews.Domain.Entities;
+using ErrorOr;
+using CoderNews.Domain.Common.Errors;
 
 namespace CoderNews.Application.Services.Authentication;
 
@@ -15,34 +17,33 @@ public class AuthenticationService : IAuthenticationService
         _userRepository = userRepository;
     }
 
-    public AuthenticationResult Login(string email, string password)
+    public ErrorOr<AuthenticationResult> Login(string email, string password)
     {
         var user = _userRepository.GetUserByEmail(email);
         // 1. Validate user exists
         if (user == null)
         {
-            throw new Exception("User with given email doesn't exist");
+            return Errors.Authentication.InvalidCredentials;
         }
 
         // 2. Validate password is correct
         if (user.Password != password)
         {
-            throw new Exception("Password incorect");
+            return new[] {Errors.Authentication.InvalidCredentials};
         }
 
         // 3. Generate token
         var token = _jwtTokenGenerator.GenerateToken(user);
 
-        return new AuthenticationResult(user,
-                                        token);
+        return new AuthenticationResult(user, token);
     }
 
-    public AuthenticationResult Register(string firstName, string lastName, string email, string password)
+    public ErrorOr<AuthenticationResult> Register(string firstName, string lastName, string email, string password)
     {
         // 1. Check if user already exists
         if (_userRepository.GetUserByEmail(email) is not null)
         {
-            throw new Exception("User already exists");
+            return Errors.User.DuplicateEmail;
         }
 
         // 2. Create user and persist it to the database

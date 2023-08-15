@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "AvcS+tbmfocLoS1jioySdw/6SYdBH3uLFPeIhpnHURA7kKpMm9YUfRSgSfNgy5vJA+w0W6DZXt9bWqZUT1Tc/g==",
+  "dgSpecHash": "UZpRPbPLdoJ5+JHPdbHZ9hqhN4chapCMXZAkbUOvs9c3XzOSxWLc4fCdb6ui4Ixq7j84nYjwErrIVu63mcDsSg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Api\\CoderNews.Api.csproj",
+  "projectFilePath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Api\\CoderNews.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Mohamed. O\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512",
     "C:\\Users\\Mohamed. O\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Mohamed. O\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\Mohamed. O\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

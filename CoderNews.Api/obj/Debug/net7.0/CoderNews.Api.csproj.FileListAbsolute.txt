@@ -38,3 +38,4 @@ C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Api\obj\Debug\net7.0\refint\CoderNew
 C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Api\obj\Debug\net7.0\CoderNews.Api.pdb
 C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Api\obj\Debug\net7.0\CoderNews.Api.genruntimeconfig.cache
 C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Api\obj\Debug\net7.0\ref\CoderNews.Api.dll
+C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Api\bin\Debug\net7.0\ErrorOr.dll

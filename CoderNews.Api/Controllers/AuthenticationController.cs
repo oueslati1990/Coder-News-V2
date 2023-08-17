@@ -3,6 +3,7 @@ using CoderNews.Application.Authentication.Queries.Login;
 using CoderNews.Authentication.Commands.Register;
 using CoderNews.Contracts.Authentication;
 using ErrorOr;
+using MapsterMapper;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,24 +13,23 @@ namespace CoderNews.Api.Controllers;
 public class AuthenticationController : ApiController
 {
     private readonly IMediator _mediator;
+    private readonly IMapper _mapper;
 
-    public AuthenticationController(IMediator mediator)
+    public AuthenticationController(IMediator mediator, IMapper mapper)
     {
         _mediator = mediator;
+        _mapper = mapper;
     }
 
     [HttpPost("register")]
     public async Task<IActionResult> Register(RegisterRequest request)
     {
-        var registerCommand = new RegisterCommand(request.FirstName,
-                                            request.LastName,
-                                            request.Email,
-                                            request.Password);
+        var registerCommand = _mapper.Map<RegisterCommand>(request);
 
         var authResult = await _mediator.Send(registerCommand);
 
         return authResult.Match(
-            authResult => Ok(MapAuthResult(authResult)),
+            authResult => Ok(_mapper.Map<AuthenticationResponse>(authResult)),
             errors => Problem(errors)
         );
     }
@@ -38,7 +38,7 @@ public class AuthenticationController : ApiController
     [HttpPost("login")]
     public async Task<IActionResult> Login(LoginRequest request)
     {
-        var loginQuery = new LoginQuery(request.Email , request.Password);
+        var loginQuery = _mapper.Map<LoginQuery>(request);
 
         var authResult = await _mediator.Send(loginQuery);
 
@@ -49,18 +49,9 @@ public class AuthenticationController : ApiController
         }
 
         return authResult.Match(
-            authResult => Ok(MapAuthResult(authResult)),
+            authResult => Ok(_mapper.Map<AuthenticationResponse>(authResult)),
             errors => Problem(errors)
         );
 
-    }
-
-    private AuthenticationResponse MapAuthResult(AuthenticationResult authResult)
-    {
-        return new AuthenticationResponse(authResult.User.Id,
-                                                  authResult.User.FirstName,
-                                                  authResult.User.LastName,
-                                                  authResult.User.Email,
-                                                  authResult.Token);
     }
 }

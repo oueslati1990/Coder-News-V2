@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FRy9XCBGwRhuvwcfDv3kf7u4aP8uTjMknSfhgYTyTC3cVfbXFfrG6tC4uuYioUC/RfOMcmMB9MzX2rdZRLiEKQ==",
+  "dgSpecHash": "8G/aAP/iGClZw49bY/6Db31BOP2xN7P0O6k01BNIHPy4BTGtBvTG/b7wtIeD+VoOAtQKfGCn7015frg7GivTTw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Infrastructure\\CoderNews.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Infrastructure\\CoderNews.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mohamed. O\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512",
     "C:\\Users\\Mohamed. O\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",

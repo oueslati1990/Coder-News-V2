@@ -198,11 +198,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj",
       "projectName": "CoderNews.Application",
-      "projectPath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj",
+      "projectPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\CoderNews.Application.csproj",
       "packagesPath": "C:\\Users\\Mohamed. O\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\obj\\",
+      "outputPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mohamed. O\\AppData\\Roaming\\NuGet\\NuGet.Config",

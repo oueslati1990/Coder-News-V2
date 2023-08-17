@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Contracts\\CoderNews.Contracts.csproj": {}
+    "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Contracts\\CoderNews.Contracts.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Contracts\\CoderNews.Contracts.csproj": {
+    "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Contracts\\CoderNews.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Contracts\\CoderNews.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Contracts\\CoderNews.Contracts.csproj",
         "projectName": "CoderNews.Contracts",
-        "projectPath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Contracts\\CoderNews.Contracts.csproj",
+        "projectPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Contracts\\CoderNews.Contracts.csproj",
         "packagesPath": "C:\\Users\\Mohamed. O\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Contracts\\obj\\",
+        "outputPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mohamed. O\\AppData\\Roaming\\NuGet\\NuGet.Config",

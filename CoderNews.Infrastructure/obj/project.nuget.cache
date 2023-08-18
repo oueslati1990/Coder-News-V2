@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "8G/aAP/iGClZw49bY/6Db31BOP2xN7P0O6k01BNIHPy4BTGtBvTG/b7wtIeD+VoOAtQKfGCn7015frg7GivTTw==",
+  "dgSpecHash": "EWLwHsjj1yHewVeXEZDWJyB6DpFPcXnmzEGup+4XkDnnnK8ZBUzl5abSg6CpTBZ4EZOnE6qbLXrSj0au0O4HRQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Infrastructure\\CoderNews.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mohamed. O\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512",
+    "C:\\Users\\Mohamed. O\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
     "C:\\Users\\Mohamed. O\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
     "C:\\Users\\Mohamed. O\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Mohamed. O\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",

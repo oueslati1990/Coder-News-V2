@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "u5vQjwwfsLFMY0FaICiKfFSTsaG13GsOzayGi0EQd4LLWgI+e/SVBmSmB+STCt8lLnfUoGSpOX9S6ygFklKiFg==",
+  "dgSpecHash": "CHZ6vBN/SLB49WEy0TcSGBJiuqBnW4Rr/61ogXmde3hlwUETC5+daxWENj5BdVZ4AkbuYXh9A4nx3mdMtbAR7g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Api\\CoderNews.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mohamed. O\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512",
+    "C:\\Users\\Mohamed. O\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
     "C:\\Users\\Mohamed. O\\.nuget\\packages\\mapster\\7.3.0\\mapster.7.3.0.nupkg.sha512",
     "C:\\Users\\Mohamed. O\\.nuget\\packages\\mapster.core\\1.2.0\\mapster.core.1.2.0.nupkg.sha512",
     "C:\\Users\\Mohamed. O\\.nuget\\packages\\mapster.dependencyinjection\\1.0.0\\mapster.dependencyinjection.1.0.0.nupkg.sha512",

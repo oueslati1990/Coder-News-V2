@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj": {
-                "projectPath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj"
+              "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj": {
+                "projectPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj"
               }
             }
           }
@@ -44,6 +44,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.7.1, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[12.1.1, )"
@@ -77,14 +81,14 @@
         }
       }
     },
-    "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj": {
+    "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj",
         "projectName": "CoderNews.Domain",
-        "projectPath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj",
+        "projectPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj",
         "packagesPath": "C:\\Users\\Mohamed. O\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mohamed. O\\AppData\\Roaming\\NuGet\\NuGet.Config",

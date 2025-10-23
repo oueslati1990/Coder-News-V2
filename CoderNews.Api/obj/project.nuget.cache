@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dm/saNwLollsl5us9zPsniaErjz2aMzRb+ciFopPeSsFeNx/owWzoz50pQLfQuP+OoyjO0nN1nITAMiZ6bqLbg==",
+  "dgSpecHash": "9sipiLTEDk3dYFPQ46EUm2yx2t/haoRWuPIN2VJIMkXckrAwwFo0z8lOm24Lso+2uEPW2E7/Z6hiJxXudXoLTw==",
   "success": true,
   "projectFilePath": "/home/mohamedoueslati/Bureau/Dotnet-Projects/Coder-News-V2/CoderNews.Api/CoderNews.Api.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "/home/mohamedoueslati/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/home/mohamedoueslati/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/8.0.0/microsoft.aspnetcore.authentication.jwtbearer.8.0.0.nupkg.sha512",
     "/home/mohamedoueslati/.nuget/packages/microsoft.bcl.memory/9.0.0/microsoft.bcl.memory.9.0.0.nupkg.sha512",
+    "/home/mohamedoueslati/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/home/mohamedoueslati/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "/home/mohamedoueslati/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "/home/mohamedoueslati/.nuget/packages/microsoft.extensions.configuration.binder/8.0.0/microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
@@ -28,6 +29,11 @@
     "/home/mohamedoueslati/.nuget/packages/microsoft.identitymodel.protocols/7.0.3/microsoft.identitymodel.protocols.7.0.3.nupkg.sha512",
     "/home/mohamedoueslati/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/7.0.3/microsoft.identitymodel.protocols.openidconnect.7.0.3.nupkg.sha512",
     "/home/mohamedoueslati/.nuget/packages/microsoft.identitymodel.tokens/8.4.0/microsoft.identitymodel.tokens.8.4.0.nupkg.sha512",
+    "/home/mohamedoueslati/.nuget/packages/microsoft.openapi/1.6.14/microsoft.openapi.1.6.14.nupkg.sha512",
+    "/home/mohamedoueslati/.nuget/packages/swashbuckle.aspnetcore/6.8.1/swashbuckle.aspnetcore.6.8.1.nupkg.sha512",
+    "/home/mohamedoueslati/.nuget/packages/swashbuckle.aspnetcore.swagger/6.8.1/swashbuckle.aspnetcore.swagger.6.8.1.nupkg.sha512",
+    "/home/mohamedoueslati/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.8.1/swashbuckle.aspnetcore.swaggergen.6.8.1.nupkg.sha512",
+    "/home/mohamedoueslati/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.8.1/swashbuckle.aspnetcore.swaggerui.6.8.1.nupkg.sha512",
     "/home/mohamedoueslati/.nuget/packages/system.identitymodel.tokens.jwt/8.4.0/system.identitymodel.tokens.jwt.8.4.0.nupkg.sha512"
   ],
   "logs": [

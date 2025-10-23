@@ -10,6 +10,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CoderNews.Api.Controllers;
 
+/// <summary>
+/// Authentication controller for user registration and login
+/// </summary>
 [Route("auth")]
 public class AuthenticationController : ApiController
 {
@@ -22,7 +25,18 @@ public class AuthenticationController : ApiController
         _mapper = mapper;
     }
 
+    /// <summary>
+    /// Register a new user account
+    /// </summary>
+    /// <param name="request">User registration details</param>
+    /// <returns>Authentication response with JWT token</returns>
+    /// <response code="200">User successfully registered</response>
+    /// <response code="400">Invalid registration data</response>
+    /// <response code="409">Email already exists</response>
     [HttpPost("register")]
+    [ProducesResponseType(typeof(AuthenticationResponse), StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(StatusCodes.Status409Conflict)]
     public async Task<IActionResult> Register(RegisterRequest request)
     {
         var registerCommand = _mapper.Map<RegisterCommand>(request);
@@ -36,7 +50,18 @@ public class AuthenticationController : ApiController
     }
 
 
+    /// <summary>
+    /// Authenticate an existing user
+    /// </summary>
+    /// <param name="request">User login credentials</param>
+    /// <returns>Authentication response with JWT token</returns>
+    /// <response code="200">User successfully authenticated</response>
+    /// <response code="400">Invalid login data</response>
+    /// <response code="401">Invalid credentials</response>
     [HttpPost("login")]
+    [ProducesResponseType(typeof(AuthenticationResponse), StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(StatusCodes.Status401Unauthorized)]
     public async Task<IActionResult> Login(LoginRequest request)
     {
         var loginQuery = _mapper.Map<LoginQuery>(request);

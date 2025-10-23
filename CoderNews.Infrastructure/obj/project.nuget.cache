@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "S5MiSr+Mnml4qtb1MDz0E163sDPpq0cuULDDdzBf7SWy0DaLcnLlbtziSevx+Zh4fhptGKArmB4WcAXi2YkV8A==",
+  "dgSpecHash": "dJFR+ndSX86/20hUGizdQJtQFqoL5pGB+t+Q1m1HOi8kKJunG4XbK7P+OoWBImIv/ktUNhL/gQjGK/WU1oJZSg==",
   "success": true,
   "projectFilePath": "/home/mohamedoueslati/Bureau/Dotnet-Projects/Coder-News-V2/CoderNews.Infrastructure/CoderNews.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "/home/mohamedoueslati/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
     "/home/mohamedoueslati/.nuget/packages/erroror/2.0.1/erroror.2.0.1.nupkg.sha512",
     "/home/mohamedoueslati/.nuget/packages/fluentvalidation/11.11.0/fluentvalidation.11.11.0.nupkg.sha512",
     "/home/mohamedoueslati/.nuget/packages/mediatr/12.4.1/mediatr.12.4.1.nupkg.sha512",

@@ -16,6 +16,7 @@ public class JwtTokenGenerator : IJwtTokenGenerator
     {
         _jwtSettings = jwtSettingsOptions.Value;
     }
+    
     public string GenerateToken(User user)
     {
         var signingCredentials = new SigningCredentials(

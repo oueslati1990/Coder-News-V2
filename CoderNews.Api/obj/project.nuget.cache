@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "hDpPGYmef1Tzqngd02mkIzxnSDq+CPuUTuBH0PL77NT688rdxfRsRqMM+qR5LVp27AD+doXh9oV+4mhgTkClBw==",
+  "dgSpecHash": "dm/saNwLollsl5us9zPsniaErjz2aMzRb+ciFopPeSsFeNx/owWzoz50pQLfQuP+OoyjO0nN1nITAMiZ6bqLbg==",
   "success": true,
   "projectFilePath": "/home/mohamedoueslati/Bureau/Dotnet-Projects/Coder-News-V2/CoderNews.Api/CoderNews.Api.csproj",
   "expectedPackageFiles": [
+    "/home/mohamedoueslati/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
     "/home/mohamedoueslati/.nuget/packages/erroror/2.0.1/erroror.2.0.1.nupkg.sha512",
     "/home/mohamedoueslati/.nuget/packages/fluentvalidation/11.11.0/fluentvalidation.11.11.0.nupkg.sha512",
     "/home/mohamedoueslati/.nuget/packages/mapster/7.4.0/mapster.7.4.0.nupkg.sha512",

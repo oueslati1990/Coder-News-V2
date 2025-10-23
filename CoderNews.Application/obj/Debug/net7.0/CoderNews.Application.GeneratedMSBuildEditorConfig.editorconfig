@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CoderNews.Application
-build_property.ProjectDir = c:\Users\Mohamed. O\Coder-News-V2\CoderNews.Application\
+build_property.ProjectDir = /home/mohamedoueslati/Bureau/Dotnet-Projects/Coder-News-V2/CoderNews.Application/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

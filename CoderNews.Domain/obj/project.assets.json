@@ -1,8 +1,8 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
-      "ErrorOr/1.2.1": {
+    "net8.0": {
+      "ErrorOr/2.0.1": {
         "type": "package",
         "compile": {
           "lib/net6.0/ErrorOr.dll": {
@@ -18,14 +18,15 @@
     }
   },
   "libraries": {
-    "ErrorOr/1.2.1": {
-      "sha512": "5xcbQErEPQKq2z/sLwSaFPX3T2G7x4ISX0us0X7jSxXSQT/wlfOOhw4knPUN/GWOf2strhuzdvRA36JViwvu+A==",
+    "ErrorOr/2.0.1": {
+      "sha512": "aje9lUVEAsusPFmaRcVM5EUqWBofd7hYtb9N8+ycgPYrtOzyFajMpzRgIO4uuiCllNLBc3x48+cpA+4v4koUDQ==",
       "type": "package",
-      "path": "erroror/1.2.1",
+      "path": "erroror/2.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "erroror.1.2.1.nupkg.sha512",
+        "README.md",
+        "erroror.2.0.1.nupkg.sha512",
         "erroror.nuspec",
         "icon-square.png",
         "lib/net6.0/ErrorOr.dll",
@@ -36,36 +37,34 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0": [
-      "ErrorOr >= 1.2.1"
+    "net8.0": [
+      "ErrorOr >= 2.0.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mohamed. O\\.nuget\\packages\\": {}
+    "/home/mohamedoueslati/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj",
+      "projectUniqueName": "/home/mohamedoueslati/Bureau/Dotnet-Projects/Coder-News-V2/CoderNews.Domain/CoderNews.Domain.csproj",
       "projectName": "CoderNews.Domain",
-      "projectPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\CoderNews.Domain.csproj",
-      "packagesPath": "C:\\Users\\Mohamed. O\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mohamed. O\\Coder-News-V2\\CoderNews.Domain\\obj\\",
+      "projectPath": "/home/mohamedoueslati/Bureau/Dotnet-Projects/Coder-News-V2/CoderNews.Domain/CoderNews.Domain.csproj",
+      "packagesPath": "/home/mohamedoueslati/.nuget/packages/",
+      "outputPath": "/home/mohamedoueslati/Bureau/Dotnet-Projects/Coder-News-V2/CoderNews.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Mohamed. O\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/mohamedoueslati/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {}
         }
       },
@@ -76,12 +75,12 @@
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "dependencies": {
           "ErrorOr": {
             "target": "Package",
-            "version": "[1.2.1, )"
+            "version": "[2.0.1, )"
           }
         },
         "imports": [
@@ -100,7 +99,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.120/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

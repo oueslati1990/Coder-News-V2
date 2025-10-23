@@ -1,12 +1,25 @@
-C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Domain\bin\Debug\net7.0\CoderNews.Domain.deps.json
-C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Domain\bin\Debug\net7.0\CoderNews.Domain.dll
-C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Domain\bin\Debug\net7.0\CoderNews.Domain.pdb
-C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Domain\obj\Debug\net7.0\CoderNews.Domain.csproj.AssemblyReference.cache
-C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Domain\obj\Debug\net7.0\CoderNews.Domain.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Domain\obj\Debug\net7.0\CoderNews.Domain.AssemblyInfoInputs.cache
-C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Domain\obj\Debug\net7.0\CoderNews.Domain.AssemblyInfo.cs
-C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Domain\obj\Debug\net7.0\CoderNews.Domain.csproj.CoreCompileInputs.cache
-C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Domain\obj\Debug\net7.0\CoderNews.Domain.dll
-C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Domain\obj\Debug\net7.0\refint\CoderNews.Domain.dll
-C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Domain\obj\Debug\net7.0\CoderNews.Domain.pdb
-C:\Users\Mohamed. O\Coder-News-V2\CoderNews.Domain\obj\Debug\net7.0\ref\CoderNews.Domain.dll
+C:/Users/Mohamed. O/Coder-News-V2/CoderNews.Domain/bin/Debug/net7.0/CoderNews.Domain.deps.json
+C:/Users/Mohamed. O/Coder-News-V2/CoderNews.Domain/bin/Debug/net7.0/CoderNews.Domain.dll
+C:/Users/Mohamed. O/Coder-News-V2/CoderNews.Domain/bin/Debug/net7.0/CoderNews.Domain.pdb
+C:/Users/Mohamed. O/Coder-News-V2/CoderNews.Domain/obj/Debug/net7.0/CoderNews.Domain.csproj.AssemblyReference.cache
+C:/Users/Mohamed. O/Coder-News-V2/CoderNews.Domain/obj/Debug/net7.0/CoderNews.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Mohamed. O/Coder-News-V2/CoderNews.Domain/obj/Debug/net7.0/CoderNews.Domain.AssemblyInfoInputs.cache
+C:/Users/Mohamed. O/Coder-News-V2/CoderNews.Domain/obj/Debug/net7.0/CoderNews.Domain.AssemblyInfo.cs
+C:/Users/Mohamed. O/Coder-News-V2/CoderNews.Domain/obj/Debug/net7.0/CoderNews.Domain.csproj.CoreCompileInputs.cache
+C:/Users/Mohamed. O/Coder-News-V2/CoderNews.Domain/obj/Debug/net7.0/CoderNews.Domain.dll
+C:/Users/Mohamed. O/Coder-News-V2/CoderNews.Domain/obj/Debug/net7.0/refint/CoderNews.Domain.dll
+C:/Users/Mohamed. O/Coder-News-V2/CoderNews.Domain/obj/Debug/net7.0/CoderNews.Domain.pdb
+C:/Users/Mohamed. O/Coder-News-V2/CoderNews.Domain/obj/Debug/net7.0/ref/CoderNews.Domain.dll
+/home/mohamedoueslati/Bureau/Dotnet-Projects/Coder-News-V2/CoderNews.Domain/bin/Debug/net7.0/CoderNews.Domain.deps.json
+/home/mohamedoueslati/Bureau/Dotnet-Projects/Coder-News-V2/CoderNews.Domain/bin/Debug/net7.0/CoderNews.Domain.dll
+/home/mohamedoueslati/Bureau/Dotnet-Projects/Coder-News-V2/CoderNews.Domain/bin/Debug/net7.0/CoderNews.Domain.pdb
+/home/mohamedoueslati/Bureau/Dotnet-Projects/Coder-News-V2/CoderNews.Domain/obj/Debug/net7.0/CoderNews.Domain.csproj.AssemblyReference.cache
+/home/mohamedoueslati/Bureau/Dotnet-Projects/Coder-News-V2/CoderNews.Domain/obj/Debug/net7.0/CoderNews.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/mohamedoueslati/Bureau/Dotnet-Projects/Coder-News-V2/CoderNews.Domain/obj/Debug/net7.0/CoderNews.Domain.AssemblyInfoInputs.cache
+/home/mohamedoueslati/Bureau/Dotnet-Projects/Coder-News-V2/CoderNews.Domain/obj/Debug/net7.0/CoderNews.Domain.AssemblyInfo.cs
+/home/mohamedoueslati/Bureau/Dotnet-Projects/Coder-News-V2/CoderNews.Domain/obj/Debug/net7.0/CoderNews.Domain.csproj.CoreCompileInputs.cache
+/home/mohamedoueslati/Bureau/Dotnet-Projects/Coder-News-V2/CoderNews.Domain/obj/Debug/net7.0/CoderNews.Domain.sourcelink.json
+/home/mohamedoueslati/Bureau/Dotnet-Projects/Coder-News-V2/CoderNews.Domain/obj/Debug/net7.0/CoderNews.Domain.dll
+/home/mohamedoueslati/Bureau/Dotnet-Projects/Coder-News-V2/CoderNews.Domain/obj/Debug/net7.0/refint/CoderNews.Domain.dll
+/home/mohamedoueslati/Bureau/Dotnet-Projects/Coder-News-V2/CoderNews.Domain/obj/Debug/net7.0/CoderNews.Domain.pdb
+/home/mohamedoueslati/Bureau/Dotnet-Projects/Coder-News-V2/CoderNews.Domain/obj/Debug/net7.0/ref/CoderNews.Domain.dll

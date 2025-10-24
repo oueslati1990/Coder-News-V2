@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.Extensions.Options;
+using Microsoft.EntityFrameworkCore;
 
 namespace CoderNews.Infrastructure;
 
@@ -15,10 +16,21 @@ public static class DependencyInjection
 {
     public static IServiceCollection AddInfrastructure(this IServiceCollection services,
                                                  ConfigurationManager configuration)
-    {  
-         services.AddAuth(configuration);     
-        services.AddScoped<IUserRepository , UserRepository>();
-       
+    {
+        services.AddAuth(configuration);
+        services.AddPersistence(configuration);
+
+        return services;
+    }
+
+    public static IServiceCollection AddPersistence(this IServiceCollection services,
+                                                     ConfigurationManager configuration)
+    {
+        services.AddDbContext<CoderNewsDbContext>(options =>
+            options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
+
+        services.AddScoped<IUserRepository, UserRepository>();
+
         return services;
     }
 

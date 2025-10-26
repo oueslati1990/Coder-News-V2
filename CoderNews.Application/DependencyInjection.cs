@@ -1,4 +1,5 @@
 using CoderNews.Application.Authentication.Commands.Register;
+using CoderNews.Application.Authentication.Queries.Login;
 using CoderNews.Application.Common.Behaviors;
 using CoderNews.Authentication.Commands.Register;
 using FluentValidation;
@@ -16,7 +17,9 @@ public static class DependencyInjection
                 typeof(IPipelineBehavior<,>),
                 typeof(ValidationBehavior<,>));
 
-        services.AddScoped<IValidator<RegisterCommand> , RegisterCommandValidator>();       
+        services.AddScoped<IValidator<RegisterCommand>, RegisterCommandValidator>();
+        services.AddScoped<IValidator<LoginQuery>, LoginQueryValidator>();
+
         return services;
     }
 }

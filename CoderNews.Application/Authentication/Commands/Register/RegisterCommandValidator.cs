@@ -7,9 +7,28 @@ public class RegisterCommandValidator : AbstractValidator<RegisterCommand>
 {
     public RegisterCommandValidator()
     {
-        RuleFor(x => x.FirstName).NotEmpty();
-        RuleFor(x => x.LastName).NotEmpty();
-        RuleFor(x => x.Email).NotEmpty();
-        RuleFor(x => x.Password).NotEmpty();
+        RuleFor(x => x.FirstName)
+            .NotEmpty().WithMessage("First name is required")
+            .MaximumLength(100).WithMessage("First name must not exceed 100 characters")
+            .Matches("^[a-zA-Z]+$").WithMessage("First name must contain only letters");
+
+        RuleFor(x => x.LastName)
+            .NotEmpty().WithMessage("Last name is required")
+            .MaximumLength(100).WithMessage("Last name must not exceed 100 characters")
+            .Matches("^[a-zA-Z]+$").WithMessage("Last name must contain only letters");
+
+        RuleFor(x => x.Email)
+            .NotEmpty().WithMessage("Email is required")
+            .EmailAddress().WithMessage("Email must be a valid email address")
+            .MaximumLength(255).WithMessage("Email must not exceed 255 characters");
+
+        RuleFor(x => x.Password)
+            .NotEmpty().WithMessage("Password is required")
+            .MinimumLength(8).WithMessage("Password must be at least 8 characters long")
+            .MaximumLength(100).WithMessage("Password must not exceed 100 characters")
+            .Matches("[A-Z]").WithMessage("Password must contain at least one uppercase letter")
+            .Matches("[a-z]").WithMessage("Password must contain at least one lowercase letter")
+            .Matches("[0-9]").WithMessage("Password must contain at least one number")
+            .Matches("[^a-zA-Z0-9]").WithMessage("Password must contain at least one special character");
     }
 }

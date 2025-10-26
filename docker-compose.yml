@@ -33,8 +33,23 @@ services:
     networks:
       - codernews-network
 
+  seq:
+    image: datalust/seq:latest
+    container_name: codernews-seq
+    environment:
+      ACCEPT_EULA: Y
+      SEQ_FIRSTRUN_ADMINPASSWORD: admin123  # Set admin password for development
+    ports:
+      - "5341:80"      # Seq UI
+      - "5342:5341"    # Ingestion endpoint
+    volumes:
+      - seq_data:/data
+    networks:
+      - codernews-network
+
 volumes:
   postgres_data:
+  seq_data:
 
 networks:
   codernews-network:

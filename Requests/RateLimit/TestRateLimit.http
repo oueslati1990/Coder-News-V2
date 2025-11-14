@@ -1,0 +1,70 @@
+@host=http://localhost:5046
+
+### Test 1: Normal request (should succeed)
+POST {{host}}/auth/register
+Content-Type: application/json
+
+{
+    "firstName": "Test",
+    "lastName": "User1",
+    "email": "test1@example.com",
+    "password": "SecureP@ss1"
+}
+
+### Test 2: Repeat request 2
+POST {{host}}/auth/register
+Content-Type: application/json
+
+{
+    "firstName": "Test",
+    "lastName": "User2",
+    "email": "test2@example.com",
+    "password": "SecureP@ss2"
+}
+
+### Test 3: Repeat request 3
+POST {{host}}/auth/register
+Content-Type: application/json
+
+{
+    "firstName": "Test",
+    "lastName": "User3",
+    "email": "test3@example.com",
+    "password": "SecureP@ss3"
+}
+
+### Test 4: Repeat request 4
+POST {{host}}/auth/register
+Content-Type: application/json
+
+{
+    "firstName": "Test",
+    "lastName": "User4",
+    "email": "test4@example.com",
+    "password": "SecureP@ss4"
+}
+
+### Test 5: Repeat request 5
+POST {{host}}/auth/register
+Content-Type: application/json
+
+{
+    "firstName": "Test",
+    "lastName": "User5",
+    "email": "test5@example.com",
+    "password": "SecureP@ss5"
+}
+
+### Instructions for testing:
+# 1. Start the API: dotnet run --project CoderNews.Api
+# 2. Send these requests rapidly (within 1 minute)
+# 3. After ~30 requests in 1 minute, you should receive:
+#    - HTTP 429 Too Many Requests
+#    - Retry-After header with seconds to wait
+#    - X-Rate-Limit-* headers showing limits
+#
+# Rate Limits configured:
+# - 30 requests per minute
+# - 100 requests per 15 minutes
+# - 300 requests per hour
+# - Localhost (127.0.0.1) has higher limit: 100 per minute
